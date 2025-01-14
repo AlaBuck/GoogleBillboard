@@ -2,7 +2,7 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 
 public void setup()  
 {            
-    for(int i=0; i<e.length(); i++){
+    for(int i=2; i<e.length(); i++){
         if(isPrime(Double.parseDouble(e.substring(i,i+10)))==true){
             System.out.println(e.substring(i,i+10));
             int s = e.length()-i;
